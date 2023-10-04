@@ -32,7 +32,7 @@ def doSomething(id: str, mission: str, money: int):
 while(True):
     id = input("Nhập vào id của bạn: ")
     mission = input("Nhập vào thao tác bạn muốn thực hiện: ")
-    if mission == 'exit' or 'quit':
+    if mission == 'exit' or mission == 'quit':
         print("Good bye.")
         break
     money = int(input("Nhập vào số tiền mà bạn muốn thao tác: "))
